@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Auto Deploy Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud Hosting Deployment Test</h1>
+    </header>
+
+    <main>
+        <p class="version-text">
+            This is the **INITIAL VERSION** of the website.
+        </p>
+        <p>
+            This content was added directly on GitHub and deployed automatically.
+        </p>
+
+        <button id="alertButton">Click Me!</button>
+    </main>
+
+    <script>
+        document.getElementById('alertButton').onclick = function() {
+            alert('Deployment Successful! The button works.');
+        };
+    </script>
+</body>
+</html>
